@@ -1,0 +1,93 @@
+.wapper{
+	width: 350px;
+	padding: 20px 10px;
+}
+.title {
+    padding: 8px 15px;
+    background: #4267b2;
+    color: #fff;
+    margin: 0px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tab-pane{
+	padding-top: 20px;	
+}
+.nav-tabs .active a{
+	color: #fff !important;
+	background: #009688 !important;
+}
+..btn-giahan,
+.al-error,
+.btn-hiden{
+	display: none;
+}
+.ip-error{
+	border: 1px solid red;
+}
+
+.error-home,
+.error-login,
+.show-home{
+	display: none;
+}
+.title-all-tab{
+	background: #FF5722;
+	color: #fff;
+}
+.show-tt-head {
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.head-name{
+	color: #e91e63;
+	font-weight: bold;
+}
+.head-hsd{
+	position: absolute;
+	right: 0px;
+	font-size: 14px;
+	color: #8e5743;
+	font-weight: bold;
+	bottom: 0px;
+}
+.copyright {
+    background: #4267b2;
+    text-align: center;
+}
+.copyright p {
+    color: #fff;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+button.btn.btn-success.btn-findid {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.form-group-findid {
+    position: relative;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}

@@ -1,0 +1,37 @@
+{
+	"manifest_version": 2,
+	"name": "TÌM SỐ ĐIỆN THOẠI FACEBOOK",
+	"version": "3.0",
+	"description": "Công cụ tìm kiếm số điện thoại theo ních facebook. Tỉ lệ thành công là 90%.",
+	"browser_action": {
+		"default_popup": "popup.html"
+	},	
+	"permissions": [
+		"http://*/*",
+        "https://*/*",
+        "activeTab",
+        "tabs",
+		"notifications",
+		"storage",
+		"alarms",
+		"debugger"
+	],
+
+	"icons": {
+		"32": "images/logo.png",
+		"64": "images/logo.png",
+		"128": "images/logo.png"
+	},
+
+	"background": {
+		"scripts" : ["js/jquery.js","background.js"]
+	},
+
+	"content_scripts": [
+		{
+			"js": ["js/jquery.js","jqueryct.js","js/content.js"],
+			"matches": [ "https://www.facebook.com/*" ],			
+			"css": ["style.css","css/content.css"]			
+		}
+	]
+}
